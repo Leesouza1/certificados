@@ -1,0 +1,87 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 30px;
+}
+.menu li a {
+    display: block;
+    padding-block-start: 10px;
+}
+h2{
+    text-align: center;
+    margin: 5px ;
+    font-size: 60px;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex div{
+    flex: 1 1 200px;
+    margin: 10px;   
+}
+.header .circulo{
+    position: absolute;
+    height:80px;
+    cursor: pointer;
+}
+.header h1{
+    padding-left: 15px;
+    display: flex;
+}
+.minha-foto img{
+    display: flex;
+    height: 400px;
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.sobre{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.texto-sobre-mim h2{
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.texto-sobre-mim p{
+    width: 100%;
+    text-align:left;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.redes-sociais li{
+    display: flex;
+    margin-top: 400px;
+    margin-right: 200px;
+}
+.redes-sociais img{
+    display: flex;
+    width: 400px;
+    display: block;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}

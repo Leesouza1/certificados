@@ -1,0 +1,10 @@
+@media(max-width: 400px){
+    .mineMenu{
+        display:block;
+    }
+}
+@media(max-width: 400px){
+    .menu li a{
+        display: none;
+    }
+}
